@@ -23,6 +23,21 @@ code {
 
 .AppContent {
   width: 100%;
+  
+}
+
+.App{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 600px)
+{
+  .AppContent {
+    width: .5vw;
+  }
 }
 
 .dropdown {
@@ -96,4 +111,81 @@ code {
   margin-top: 3vh;
   background-color: rgb(19, 19, 19);
   color: rgb(249, 249, 249);
+}
+
+
+
+
+/*COMPOSAVER*/
+
+.saver-wrapper
+{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.saver-wrapper img 
+{
+  max-width: 300px; 
+  max-height: 500px;
+}
+
+.saver-heading
+{
+  background-image: url('./compost_closeup.jpg');
+  text-align: center;
+}
+
+.saver-heading h1
+{
+  color: rgb(255, 255, 255);
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+   margin-top: 5vh;
+
+   margin-left: 3vw;
+   margin-right: 3vw;
+}
+
+.blurb button{
+  width: 60%; 
+  height: 6vh; 
+  border: none; 
+  background-color: #00910D;
+  color: rgb(242, 242, 242);
+  font-size: 1rem;
+}
+
+.blurb h1 
+{
+  color: #00910D;
+}
+
+.list-wrapper
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container
+{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.list-wrapper p{
+  color:#00910D;
+  margin-bottom: 0;
 }
